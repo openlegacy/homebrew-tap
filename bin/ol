@@ -62,7 +62,7 @@ case "`uname`" in
     ;;
 esac
 
-CLASSPATH=$APP_HOME/cli.jar
+CLASSPATH=##PREFIX##/cli.jar
 
 # Determine the Java command to use to start the JVM.
 if [ -n "$JAVA_HOME" ] ; then
