@@ -3,7 +3,7 @@ class OpenlegacyCli < Formula
     homepage "https://github.com/openlegacy/homebrew-openlegacy-cli"
     url "https://ol-public-artifacts.s3.amazonaws.com/cli/1.3.0/prod/387/install_linux.zip"
     version "1.3.0"
-    sha256 "fd3db716c701f3b27836f4224c0bba8703d559ddf4646af9fcadbf73ba80df2a"
+    sha256 "05e388ab0e4b958b47b43745ebd4425b36ed63ca6c533d151854aaf35211dfc9"
   
     def install
       chmod 0755, "ol"
