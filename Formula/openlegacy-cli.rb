@@ -10,7 +10,7 @@ class OpenlegacyCli < Formula
       inreplace "ol", "##PREFIX##", "#{prefix}"
       prefix.install "cli.jar"
       bin.install "ol"
-      bash_completion.install "ol-completion.bash" => "ol"
+      bash_completion.install ".ol-completion.sh" => "ol"
     end
   
     test do
