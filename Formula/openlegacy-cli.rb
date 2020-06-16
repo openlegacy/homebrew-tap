@@ -1,9 +1,9 @@
 class OpenlegacyCli < Formula
     desc "Digitize Your Legacy With OpenLegacy's Hub"
     homepage "https://github.com/openlegacy/homebrew-openlegacy-cli"
-    url "https://ol-public-artifacts.s3.amazonaws.com/cli/1.3.0/prod/387/install_linux.zip"
+    url "https://ol-public-artifacts.s3.amazonaws.com/cli/1.3.0/prod/387/openlegacy_cli_linux.tar.gz"
     version "1.3.0"
-    sha256 "05e388ab0e4b958b47b43745ebd4425b36ed63ca6c533d151854aaf35211dfc9"
+    sha256 "d62b76625300d16dd7778aa41e9cf3b820fa2a8d09d9b4d060a7fef592fdcf83"
   
     def install
       chmod 0755, "ol"
