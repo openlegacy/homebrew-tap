@@ -1,7 +1,7 @@
 class OpenlegacyCli < Formula
     desc "Digitize Your Legacy With OpenLegacy's Hub"
     homepage "https://github.com/openlegacy/homebrew-openlegacy-cli"
-    url "https://github.com/openlegacy/homebrew-openlegacy-cli/archive/v1.2.092.tar.gz"
+    url "https://ol-public-artifacts.s3.amazonaws.com/cli/1.3.0/prod/387/install_linux.zip"
     version "1.3.0"
     sha256 "fd3db716c701f3b27836f4224c0bba8703d559ddf4646af9fcadbf73ba80df2a"
   
