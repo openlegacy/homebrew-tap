@@ -1,9 +1,20 @@
-# Git@github.com:openlegacy Tap.git
 
-## How do I install these formulae?
-`brew install git@github.com:openlegacy/tap.git/<formula>`
+# Homebrew Tap for Openlegacy
 
-Or `brew tap git@github.com:openlegacy/tap.git` and then `brew install <formula>`.
+##### Add this repository to the list of formulae:
 
-## Documentation
-`brew help`, `man brew` or check [Homebrew's documentation](https://docs.brew.sh).
+```console
+brew tap openlegacy/tap
+```
+
+##### Installing packages from this repository:
+
+```console
+brew install <package>
+```
+
+##### Available packages:
+
+| Package        | Install command |
+| -------------  | --------------- |
+| openlegacy-cli | `brew install openlegacy-cli` |
