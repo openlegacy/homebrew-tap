@@ -1,9 +1,9 @@
 class OpenlegacyCli < Formula
   desc "Digitize Your Legacy With OpenLegacy's Hub"
   homepage "https://github.com/openlegacy/openlegacy-cli"
-  url "https://ol-public-artifacts.s3.amazonaws.com/openlegacy-cli/1.5.0/openlegacy-cli.zip"
-  version "1.5.0"
-  sha256 "f7f2f745d4632be31b39381d1301e8fc17464506ec29388f5ba877941c77786c"
+  url "https://ol-public-artifacts.s3.amazonaws.com/openlegacy-cli/1.6.0/linux-macos/openlegacy-cli.zip"
+  version "1.6.0"
+  sha256 "f064c325af604b39341bf8e7e207e75263f9d500b6afad5389878ab3fceca401"
 
   def install
     inreplace "bin/ol", "##PREFIX##", "#{prefix}"
