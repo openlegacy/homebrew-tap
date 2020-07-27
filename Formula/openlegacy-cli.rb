@@ -3,7 +3,7 @@ class OpenlegacyCli < Formula
   homepage "https://github.com/openlegacy/openlegacy-cli"
   url "https://ol-public-artifacts.s3.amazonaws.com/openlegacy-cli/1.6.0/linux-macos/openlegacy-cli.zip"
   version "1.6.0"
-  sha256 "f064c325af604b39341bf8e7e207e75263f9d500b6afad5389878ab3fceca401"
+  sha256 "b791c55d1fe30418ed6895de60afc5d96a76192bdfc6ea39101dc7b82f35a2d3"
 
   def install
     inreplace "bin/ol", "##PREFIX##", "#{prefix}"
