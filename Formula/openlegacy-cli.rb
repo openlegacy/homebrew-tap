@@ -5,6 +5,8 @@ class OpenlegacyCli < Formula
   version "1.11.0"
   sha256 "06658b43dfd263dcc3b6ccdf27601919aa757f833b3bc65431b3f82bccf94150"
 
+  depends_on java: "11.0+"
+  
   def install
     inreplace "bin/ol", "##PREFIX##", "#{prefix}"
     prefix.install "bin/cli.jar"
