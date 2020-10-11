@@ -5,13 +5,22 @@ class OpenlegacyCli < Formula
   version "1.11.0"
   sha256 "06658b43dfd263dcc3b6ccdf27601919aa757f833b3bc65431b3f82bccf94150"
 
+  def colorize(text, color_code)
+    "\e[#{color_code}m#{text}\e[0m"
+  end
+  
+  def green(text); colorize(text, 32); end
+
   def install
     inreplace "bin/ol", "##PREFIX##", "#{prefix}"
     prefix.install "bin/cli.jar"
     bin.install "bin/ol"
     bash_completion.install "bin/.ol-completion.sh" => "ol"
     zsh_completion.install "bin/.ol-completion.zsh" => "_ol"
-    print "Note that the CLI require java 11, please make sure its installed and JAVA_HOME is configured"
+
+    puts green('*********************************************************************************************')
+    puts 'Note that the CLI require java 11, please make sure its installed and JAVA_HOME is configured'
+    puts green('*********************************************************************************************')
   end
 
   test do
