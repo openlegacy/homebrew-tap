@@ -11,6 +11,7 @@ require "open-uri"
 project = ENV['OL_PROJECT_NAME']
 version = ENV['OL_PROJECT_REVISION']
 s3_bucket = ENV['OL_PROJECT_PUBLIC_BUCKET']
+className = ENV['FORMULA_CLASSNAME']
 
 # Return the URL, and SHA for a project
 def get_latest_release(s3_bucket, project, version)
