@@ -1,9 +1,9 @@
-class <%= className %> < Formula
+class OpenlegacyCliAlpha < Formula
   desc "Digitize Your Legacy With OpenLegacy's Hub"
   homepage "https://github.com/openlegacy/openlegacy-cli"
-  url "<%= url %>"
-  version "<%= version %>"
-  sha256 "<%= sha256 %>"
+  url "https://ol-public-artifacts.s3.amazonaws.com/openlegacy-cli/alpha/linux-macos/openlegacy-cli.zip"
+  version "alpha"
+  sha256 "fbc3cf74481add51c0b4ddbd2afd0c77d67fd17b3c9890ead1b7eb78bc1d1b6c"
 
   def colorize(text, color_code)
     "\e[#{color_code}m#{text}\e[0m"
