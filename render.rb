@@ -9,8 +9,8 @@ require "open-uri"
 
 # vars supplied by CI
 project = ENV['OL_PROJECT_NAME']
-version = ENV['OL_PROJECT_REVISION']
-s3_bucket = ENV['OL_PROJECT_PUBLIC_BUCKET']
+version = ENV['OL_REVISION']
+s3_bucket = ENV['OL_PUBLIC_BUCKET']
 className = ENV['FORMULA_CLASSNAME']
 
 # Return the URL, and SHA for a project
