@@ -3,7 +3,7 @@ class OpenlegacyCliAlpha < Formula
   homepage "https://github.com/openlegacy/openlegacy-cli"
   url "https://ol-public-artifacts.s3.amazonaws.com/openlegacy-cli/alpha/linux-macos/openlegacy-cli.zip"
   version "alpha"
-  sha256 "bad890e380c463bce89a94903ea5952161aa517f276c3e69d60f51bfe5af655f"
+  sha256 "1b06dd56c6f15589b24bcd4446951a2c0113ffcc4e76c4c0e675ad8cb1beee35"
 
   def colorize(text, color_code)
     "\e[#{color_code}m#{text}\e[0m"
