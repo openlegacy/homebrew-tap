@@ -3,7 +3,7 @@ class OpenlegacyCliAlpha < Formula
   homepage "https://github.com/openlegacy/openlegacy-cli"
   url "https://ol-public-artifacts.s3.amazonaws.com/openlegacy-cli/alpha/linux-macos/openlegacy-cli.zip"
   version "alpha"
-  sha256 "e46792f389fe74053e2a686630ed34f59e7450d1f7de2a8274b88de501090112"
+  sha256 "afb1e05b3d2ada990a760d76c3896eae72930a9be7e3b09e9057d92a98a3955e"
 
   def colorize(text, color_code)
     "\e[#{color_code}m#{text}\e[0m"
@@ -19,7 +19,7 @@ class OpenlegacyCliAlpha < Formula
     zsh_completion.install "bin/.ol-completion.zsh" => "_ol"
 
     puts green('*********************************************************************************************')
-    puts 'Note that the CLI require java 11 or higher, please make sure its installed and JAVA_HOME is configured'
+    puts 'Note that the CLI require java 11, please make sure its installed and JAVA_HOME is configured'
     puts green('*********************************************************************************************')
   end
 
