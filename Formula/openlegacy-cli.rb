@@ -19,7 +19,7 @@ class OpenlegacyCli < Formula
     zsh_completion.install "bin/.ol-completion.zsh" => "_ol"
 
     puts green('************************************************************************************************')
-    puts 'Note that the CLI require java 11 or higher, please make sure its installed and JAVA_HOME is configured'
+    puts 'Note that the CLI require java 17 or higher, please make sure its installed and JAVA_HOME is configured'
     puts green('************************************************************************************************')
   end
 
