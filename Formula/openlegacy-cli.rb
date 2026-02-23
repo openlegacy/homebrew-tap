@@ -1,9 +1,9 @@
 class OpenlegacyCli < Formula
   desc "Digitize Your Legacy With OpenLegacy's Hub"
   homepage "https://github.com/openlegacy/openlegacy-cli"
-  url "https://ol-public-artifacts.s3.amazonaws.com/openlegacy-cli/3.0.23/linux-macos/openlegacy-cli.zip"
-  version "3.0.23"
-  sha256 "5fcf38240671a5a55d6a02f7023159d187cb49e6fdde152c83e788b6fb51d09f"
+  url "https://ol-public-artifacts.s3.amazonaws.com/openlegacy-cli/3.0.24/linux-macos/openlegacy-cli.zip"
+  version "3.0.24"
+  sha256 "ab802937608073228c980a8c89893845e7ca18566599190820b0a6e877a48cc3"
 
   def colorize(text, color_code)
     "\e[#{color_code}m#{text}\e[0m"
